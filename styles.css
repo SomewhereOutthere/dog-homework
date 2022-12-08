@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
@@ -13,7 +13,7 @@ Table of Contents:
 ////////////////////////////////////////////////////////////////////////*/
 
 /*kleuren gebruik*/
-/*grijs #899CA0 en donkergroen #1C2B32*/
+
 
 
 /*////////////////////////
@@ -46,19 +46,37 @@ Table of Contents:
     3. Areas
 ////////////////////////*/
 
-
-
 /*///////////// 3.1 Header
 
-h1 {
-    text-align: center;
-                                           }
 
 
 
 /////////////*/
 
+}
 
+.pet-badge {
+    display: inline-block;
+    background-color: #EED7C5;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+}
+
+.pet-image {
+    width: 300px;
+    border-radius: 50%;
+    border: 8px solid #B36A5E;
+    margin-bottom: 10px;
+}
+
+.pet-name {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    color: #B36A5E;
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
